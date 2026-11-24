@@ -45,6 +45,8 @@ Nach Abschluss des Projekts können Sie:
 └── analytic_QC.Rproj
 ```
 
+Der R-Ordner bleibt zuinächst leer und wird in weiterer Folge mit Funktionen befüllt, um den Workflow stringenter zu gestalten - ebenso der outputs-Ordner, in dem dann reports und graphics in einem eigenen Unterverzeichnis gespeichert werden, sowie das work_protocol.
+
 ------------------------------------------------------------------------
 
 # Team
@@ -118,7 +120,7 @@ Erstellen Sie:
 Speichern Sie die Grafik in:
 
 ``` text
-output/grafiken/
+output/graphics/
 ```
 
 ------------------------------------------------------------------------
@@ -206,7 +208,7 @@ Erstellen Sie anschließend einen Pull Request auf GitHub.
 Jedes Teammitglied dokumentiert seine Beiträge in
 
 ``` text
-reports/arbeitsprotokoll.md
+reports/work_protocol.md
 ```
 
 Beispiel:
