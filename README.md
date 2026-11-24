@@ -53,10 +53,9 @@ Bitte ergänzen Sie die Namen Ihrer Gruppe.
 
 | Name | GitHub-Username | Verantwortungsbereich |
 |------|-----------------|-----------------------|
-|      |                 |                       |
-|      |                 |                       |
-|      |                 |                       |
-|      |                 |                       |
+|      |                 | Aufgabe 1 & 4         |
+|      |                 | Aufgabe 2 & 4         |
+|      |                 | Aufgabe 3 & 4         |
 
 ------------------------------------------------------------------------
 
@@ -67,7 +66,7 @@ Bitte ergänzen Sie die Namen Ihrer Gruppe.
 Datei:
 
 ``` text
-R/01_daten_einlesen.R
+scripts/00100_input.R
 ```
 
 Ziele:
@@ -83,7 +82,7 @@ Ziele:
 Datei:
 
 ``` text
-R/02_auswertung.R
+scripts/00200_calc.R
 ```
 
 Berechnen Sie:
@@ -106,7 +105,7 @@ docs/bericht.md
 Datei:
 
 ``` text
-R/03_levey_jennings.R
+scripts/00300_lj-plot.R
 ```
 
 Erstellen Sie:
@@ -129,17 +128,17 @@ output/grafiken/
 Datei:
 
 ``` text
-R/04_westgard.R
+scripts/00400_westgard.R
 ```
 
 Implementieren Sie folgende Regeln:
 
-- 1-2s
-- 1-3s
-- 2-2s
-- R-4s
-- 4-1s
-- 10x
+- 1~2s~
+- 1~3s~
+- 2~2s~
+- R~4s~
+- 4~1s~
+- 10~x~
 
 Dokumentieren Sie:
 
@@ -222,27 +221,13 @@ Beispiel:
 
 ------------------------------------------------------------------------
 
-# Qualitätskriterien
-
-Bei der Bewertung werden folgende Aspekte berücksichtigt:
-
-| Kriterium                     | Gewichtung |
-|-------------------------------|------------|
-| Korrekte Datenanalyse         | 30 %       |
-| Umsetzung der Westgard-Regeln | 25 %       |
-| Dokumentation                 | 15 %       |
-| GitHub-Nutzung                | 15 %       |
-| Zusammenarbeit im Team        | 15 %       |
-
-------------------------------------------------------------------------
-
 # Abgabe
 
 Die Abgabe erfolgt über den Link zu Ihrem GitHub-Repository.
 
 Folgende Dateien müssen vorhanden sein:
 
-✅ README.md
+✅ README.md auf Ihr Projekt korrigieren
 
 ✅ daten.csv
 
