@@ -95,7 +95,7 @@ Berechnen Sie:
 Dokumentieren Sie die Ergebnisse in:
 
 ``` text
-docs/bericht.md
+output/reports/
 ```
 
 ------------------------------------------------------------------------
