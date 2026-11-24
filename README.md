@@ -206,7 +206,7 @@ Erstellen Sie anschließend einen Pull Request auf GitHub.
 Jedes Teammitglied dokumentiert seine Beiträge in
 
 ``` text
-docs/arbeitsprotokoll.md
+reports/arbeitsprotokoll.md
 ```
 
 Beispiel:
@@ -229,9 +229,9 @@ Folgende Dateien müssen vorhanden sein:
 
 ✅ README.md auf Ihr Projekt korrigieren
 
-✅ daten.csv
+✅ daten_1.csv
 
-✅ Analyse-Skripte
+✅ R-Skripte
 
 ✅ Levey-Jennings-Diagramm
 
