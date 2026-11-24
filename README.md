@@ -1,11 +1,12 @@
 # analytiQC_template
+
 # Qualitätskontrolle im medizinischen Labor mit R, Git und GitHub
 
 Willkommen im Projektrepository Ihrer Arbeitsgruppe.
 
 In diesem Projekt analysieren Sie Qualitätskontrolldaten aus dem medizinischen Labor und entwickeln einen reproduzierbaren Workflow zur Qualitätssicherung mit R. Gleichzeitig lernen Sie die kollaborative Arbeit mit Git und GitHub kennen.
 
----
+------------------------------------------------------------------------
 
 # Lernziele
 
@@ -19,47 +20,45 @@ Nach Abschluss des Projekts können Sie:
 - Git und GitHub für die Zusammenarbeit nutzen
 - Analyseergebnisse reproduzierbar dokumentieren
 
----
+------------------------------------------------------------------------
 
 # Projektstruktur
 
-```text
+``` text
 .
 ├── data/
-│   └── qc_daten.csv
+│   ├── processed
+|   └── raw
 │
 ├── R/
-│   ├── 01_daten_einlesen.R
-│   ├── 02_auswertung.R
-│   ├── 03_levey_jennings.R
-│   └── 04_westgard.R
 │
-├── docs/
-│   ├── arbeitsprotokoll.md
-│   └── bericht.md
+├── scripts/
+│   ├── 00100_input.R
+|   ├── 00200_calc.R
+│   └── 00300_lj-plot.R
 │
-├── output/
-│   ├── grafiken/
-│   └── berichte/
+├── outputs/
 │
 ├── .gitignore
-└── README.md
+├── _quarto.yml
+├── README.md
+└── analytic_QC.Rproj
 ```
 
----
+------------------------------------------------------------------------
 
 # Team
 
 Bitte ergänzen Sie die Namen Ihrer Gruppe.
 
 | Name | GitHub-Username | Verantwortungsbereich |
-|--------|----------------|------------------------|
-| | | |
-| | | |
-| | | |
-| | | |
+|------|-----------------|-----------------------|
+|      |                 |                       |
+|      |                 |                       |
+|      |                 |                       |
+|      |                 |                       |
 
----
+------------------------------------------------------------------------
 
 # Arbeitsaufträge
 
@@ -67,7 +66,7 @@ Bitte ergänzen Sie die Namen Ihrer Gruppe.
 
 Datei:
 
-```text
+``` text
 R/01_daten_einlesen.R
 ```
 
@@ -77,13 +76,13 @@ Ziele:
 - Datentypen prüfen
 - Datenstruktur dokumentieren
 
----
+------------------------------------------------------------------------
 
 ## Aufgabe 2: Grundlegende Qualitätskennzahlen
 
 Datei:
 
-```text
+``` text
 R/02_auswertung.R
 ```
 
@@ -96,17 +95,17 @@ Berechnen Sie:
 
 Dokumentieren Sie die Ergebnisse in:
 
-```text
+``` text
 docs/bericht.md
 ```
 
----
+------------------------------------------------------------------------
 
 ## Aufgabe 3: Levey-Jennings-Diagramm
 
 Datei:
 
-```text
+``` text
 R/03_levey_jennings.R
 ```
 
@@ -119,17 +118,17 @@ Erstellen Sie:
 
 Speichern Sie die Grafik in:
 
-```text
+``` text
 output/grafiken/
 ```
 
----
+------------------------------------------------------------------------
 
 ## Aufgabe 4: Westgard-Regeln
 
 Datei:
 
-```text
+``` text
 R/04_westgard.R
 ```
 
@@ -148,72 +147,72 @@ Dokumentieren Sie:
 - mögliche Fehlerursachen
 - notwendige Maßnahmen
 
----
+------------------------------------------------------------------------
 
 # GitHub-Workflow
 
 ## Vor Arbeitsbeginn
 
-```bash
+``` bash
 git pull
 ```
 
 Aktuellen Stand vom Repository abrufen.
 
----
+------------------------------------------------------------------------
 
 ## Änderungen speichern
 
-```bash
+``` bash
 git add .
 git commit -m "Kurze Beschreibung der Änderung"
 ```
 
 Beispiel:
 
-```bash
+``` bash
 git commit -m "Levey-Jennings-Diagramm ergänzt"
 ```
 
----
+------------------------------------------------------------------------
 
 ## Änderungen hochladen
 
-```bash
+``` bash
 git push
 ```
 
----
+------------------------------------------------------------------------
 
 # Arbeiten mit Branches
 
 Für neue Funktionen verwenden Sie eigene Branches:
 
-```bash
+``` bash
 git checkout -b feature-westgard
 ```
 
 Nach Abschluss:
 
-```bash
+``` bash
 git push origin feature-westgard
 ```
 
 Erstellen Sie anschließend einen Pull Request auf GitHub.
 
----
+------------------------------------------------------------------------
 
 # Dokumentation der Zusammenarbeit
 
 Jedes Teammitglied dokumentiert seine Beiträge in
 
-```text
+``` text
 docs/arbeitsprotokoll.md
 ```
 
 Beispiel:
 
-```markdown
+``` markdown
 ## Max Mustermann
 
 - Datenimport erstellt
@@ -221,21 +220,21 @@ Beispiel:
 - Pull Request #2 bearbeitet
 ```
 
----
+------------------------------------------------------------------------
 
 # Qualitätskriterien
 
 Bei der Bewertung werden folgende Aspekte berücksichtigt:
 
-| Kriterium | Gewichtung |
-|------------|-------------|
-| Korrekte Datenanalyse | 30 % |
-| Umsetzung der Westgard-Regeln | 25 % |
-| Dokumentation | 15 % |
-| GitHub-Nutzung | 15 % |
-| Zusammenarbeit im Team | 15 % |
+| Kriterium                     | Gewichtung |
+|-------------------------------|------------|
+| Korrekte Datenanalyse         | 30 %       |
+| Umsetzung der Westgard-Regeln | 25 %       |
+| Dokumentation                 | 15 %       |
+| GitHub-Nutzung                | 15 %       |
+| Zusammenarbeit im Team        | 15 %       |
 
----
+------------------------------------------------------------------------
 
 # Abgabe
 
@@ -257,7 +256,7 @@ Folgende Dateien müssen vorhanden sein:
 
 ✅ Abschlussbericht
 
----
+------------------------------------------------------------------------
 
 # Ehrenkodex
 
